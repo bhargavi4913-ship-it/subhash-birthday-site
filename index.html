@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#edf6fa" />
+  <meta name="description" content="A tiny birthday universe made just for Subhaaaaashuuu 💗" />
+  <title>Happy Birthday, Subhaaaaashuuu! 🎂</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="intro-active">
+  <section class="intro-screen" id="introScreen" aria-label="Birthday video introduction">
+    <div class="intro-content">
+      <p class="intro-eyebrow">A little surprise for you</p>
+      <h1 class="intro-title">Before the birthday chaos...</h1>
+      <div class="intro-video-frame" id="introVideoFrame" aria-label="Birthday intro video">
+        <video class="intro-video" id="introVideo" autoplay muted loop controls playsinline preload="auto">
+          <source src="Intro%20video.mp4" type="video/mp4">
+        </video>
+        <div class="intro-video-fallback">
+          <span class="intro-fallback-icon">▶</span>
+          <span>Intro clip: <code>Intro video.mp4</code></span>
+        </div>
+      </div>
+      <button class="button button-primary intro-open" id="openBirthday" type="button">Open your birthday surprise <span aria-hidden="true">↗</span></button>
+    </div>
+    <span class="intro-decoration intro-decoration-one" aria-hidden="true">✦</span>
+    <span class="intro-decoration intro-decoration-two" aria-hidden="true">♡</span>
+  </section>
+  <div class="floating-layer" aria-hidden="true" id="floatingLayer"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Back to top">tiny chaos club <span>♡</span></a>
+    <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false">♫ <span>Play our soundtrack</span></button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="sticker sticker-star" aria-hidden="true">✦</div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> A very official birthday announcement</p>
+        <h1>HAPPY BIRTHDAY,<br><span class="name">Subhaaaaashuuu</span><span class="bang">!!!</span></h1>
+        <p class="hero-subtitle">Breaking news: the world’s most lovable headache has levelled up. 🎮</p>
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#memories">Open the memory vault <span>↘</span></a>
+          <button class="button button-secondary" id="confettiButton" type="button">Cause a tiny scene ✨</button>
+        </div>
+        <p class="micro-note">Made with affection, questionable humour & approximately 947 smiles.</p>
+      </div>
+      <div class="hero-art" aria-label="Birthday cake illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="cake-card">
+          <div class="cake-sparkle sparkle-one">✦</div><div class="cake-sparkle sparkle-two">✧</div>
+          <div class="candle"><i></i></div>
+          <div class="cake-top"></div>
+          <div class="cake-layer layer-one"><span>♥</span><span>♥</span><span>♥</span></div>
+          <div class="cake-layer layer-two"><span>♡</span><span>♡</span><span>♡</span></div>
+          <div class="plate"></div>
+          <div class="cake-caption">100% certified<br>birthday boy</div>
+        </div>
+        <div class="bubble bubble-left">chaos<br>icon ✨</div>
+        <div class="bubble bubble-right">+1 year<br>more dramatic</div>
+        <div class="tiny-heart heart-a">♥</div><div class="tiny-heart heart-b">♥</div>
+      </div>
+      <div class="scroll-cue">SCROLL FOR THE GOOD STUFF <span>↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Birthday wishes">
+      <div class="ticker-track"><span>HAPPY BIRTHDAY, YOU MENACE ✦ BEST HUMAN ENERGY ✦ MORE CAKE PLEASE ✦ STAY WEIRD ✦ </span><span>HAPPY BIRTHDAY, YOU MENACE ✦ BEST HUMAN ENERGY ✦ MORE CAKE PLEASE ✦ STAY WEIRD ✦ </span></div>
+    </section>
+
+    <section class="section memories-section" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">Chapter 01 · The evidence folder</p>
+        <h2>Our little <span class="scribble">chaos</span> archive</h2>
+        <p>For the moments that deserve their own documentary.</p>
+      </div>
+      <div class="memory-grid" id="memoryGrid">
+        <article class="memory-card card-pink">
+          <video class="memory-photo memory-video" controls playsinline preload="metadata" aria-label="First impression video">
+            <source src="first%20impression.mp4?v=5" type="video/mp4">
+          </video>
+          <div class="memory-info"><span class="memory-tag">THE BEGINNING</span><h3>First impression</h3><p>The moment the story began. 👀</p></div>
+        </article>
+        <article class="memory-card card-yellow">
+          <img class="memory-photo" src="cute.jpeg" alt="A cute shared memory" loading="lazy">
+          <div class="memory-info"><span class="memory-tag">CERTIFIED CUTENESS</span><h3>A cute little moment</h3><p>A tiny memory with a lot of heart. 💛</p></div>
+        </article>
+        <article class="memory-card card-blue">
+          <img class="memory-photo" src="moment%20.jpeg" alt="A favorite moment together" loading="lazy">
+          <div class="memory-info"><span class="memory-tag">CORE MEMORY</span><h3>A moment I keep</h3><p>One little moment that means a lot. 🌙</p></div>
+        </article>
+        <article class="friends-note-card">
+          <img class="friends-photo" src="together.jpeg" alt="A photo together with your friend" loading="lazy">
+          <p class="friends-note-heading">Together, friends</p>
+          <p class="friends-note-message"><strong>Good to have you as My friend</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reasons-section" id="reasons">
+      <div class="reasons-doodle doodle-one">✿</div>
+      <div class="section-heading">
+        <p class="eyebrow">Chapter 02 · Extremely unbiased research</p>
+        <h2>Why you're <span class="highlight">kind of a big deal</span></h2>
+        <p>Peer-reviewed by me. Sample size: one very correct person.</p>
+      </div>
+      <div class="reasons-grid">
+        <article class="reason"><span class="reason-number">01</span><span class="reason-icon">🤣</span><h3>Professional nonsense</h3><p>You can make an ordinary day feel like a deleted scene from a comedy movie.</p></article>
+        <article class="reason"><span class="reason-number">02</span><span class="reason-icon">🫶</span><h3>Softie in disguise</h3><p>Even when you're being a certified nuisance, there's a genuinely lovely human underneath.</p></article>
+        <article class="reason"><span class="reason-number">03</span><span class="reason-icon">✨</span><h3>Simply you</h3><p>Life is a little brighter, louder and more memorable with you in it. Don't let it go to your head.</p></article>
+      </div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="letter-decoration decoration-left">♡</div><div class="letter-decoration decoration-right">✦</div>
+      <div class="letter-envelope">
+        <div class="letter-topline">A NOTE FOR THE BIRTHDAY BOY</div>
+        <div class="letter-icon">💌</div>
+        <h2>Okay, jokes aside...</h2>
+        <p class="letter-intro">There's something I actually want you to know.</p>
+        <button class="button button-primary letter-open" id="openLetter" type="button">Open your letter 💗</button>
+      </div>
+      <div class="letter-content" id="letterContent" hidden>
+        <p class="letter-small">TO MY FAVOURITE SUBHAaaaashuuu,</p>
+        <h2>Happy birthday, you special human. 💗</h2>
+        <p>First of all, congratulations on surviving another year of being you. Honestly, iconic behaviour.</p>
+        <p>But really, I'm glad our paths crossed. The little conversations, the silly moments, the laughs and even the random nonsense have become memories I genuinely treasure.</p>
+        <p>I hope this new year of your life brings you the kind of happiness that stays, people who appreciate the real you, chances that make you proud, and countless reasons to smile. I hope you keep growing into the person you want to be without ever losing the parts that make you <em>you</em>.</p>
+        <p>And if life gets a little messy sometimes, I hope you remember that you matter more than you probably realise. You deserve good things, Subhaaaaashuuu. Lots of them.</p>
+        <p>Stay funny, stay kind, keep being your wonderfully weird self—and please don't become too famous to reply to my messages. 🙄</p>
+        <p class="letter-signoff">With lots of love and a little bit of bullying,<br><span>your favourite human (obviously) ♡</span></p>
+        <button class="text-button" id="closeLetter" type="button">Fold the letter back ↑</button>
+      </div>
+    </section>
+
+    <section class="finale-section section" id="finale">
+      <div class="finale-stars" aria-hidden="true">✦　⋆　✧　⋆　✦</div>
+      <p class="eyebrow">Chapter 03 · Your next trip around the sun</p>
+      <h2>Make a wish,<br><span>birthday boy.</span></h2>
+      <p>May your cake be huge, your worries be tiny, and your year be ridiculously good.</p>
+      <button class="button button-light" id="wishButton" type="button">I made a wish ✨</button>
+      <p class="wish-message" id="wishMessage" aria-live="polite"></p>
+      <div class="finale-signature">A little website, for a person who matters a lot. ♡</div>
+    </section>
+  </main>
+
+  <footer><span>made with ♡ and chaotic energy</span><span>SUBHAaaaASHUU DAY · EVERY YEAR</span></footer>
+  <audio id="backgroundMusic" loop preload="none">
+    <source src="Darling%20Instrumental.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
